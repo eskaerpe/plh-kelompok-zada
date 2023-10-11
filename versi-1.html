@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Bootstrap demo</title>
+        <title>Kelompok</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
         <style>
             html {
@@ -38,6 +38,9 @@
             #info-kelompok {
                 height: 50vh;
             }
+            #info-kelompok .container-fluid {
+                width: 50%;
+            }
 
             #info-kelompok .row .col-lg-6 ol,
             #info-kelompok .row .col-lg-6 ul {
@@ -65,7 +68,7 @@
             #pendahuluan .container-fluid,
             #pembahasan .container-fluid,
             #analisis .container-fluid {
-                width: 80%;
+                width: 50%;
             }
             #pendahuluan,
             #pendahuluan p,
@@ -97,7 +100,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#info-kelompok">About</a>
+                                <a class="nav-link" href="#info-kelompok">Tentang</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#ringkasan-bagan">Ringkasan & Bagan</a>
@@ -106,7 +109,7 @@
                                 <a class="nav-link" href="#pendahuluan">Pendahuluan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#pendahuluan">Analisa</a>
+                                <a class="nav-link" href="#analisis">Analisa</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#pembahasan">Pembahasan</a>
@@ -130,7 +133,7 @@
 
         <section id="info-kelompok" class="mt-3">
             <div class="container-fluid">
-                <h2 class="text-center mb-3">Tentang Kami</h2>
+                <h2 class="text-center mb-3">Tentang Artikel Ini</h2>
                 <div class="row justify-content-center g-2 align">
                     <div class="col-lg-6">
                         <h2 class="text-center">Disusun oleh</h2>
@@ -191,16 +194,18 @@
 
         <section id="pendahuluan">
             <div class="container-fluid">
-                <h1 class="text-center">Pendahuluan</h1>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePendahuluan" aria-expanded="false" aria-controls="collapsePendahuluan">
-                                <p>
-                                    Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud
-                                    dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara
-                                    lestari.
-                                </p>
+                                <div>
+                                    <h1 class="text-center">Pendahuluan</h1>
+                                    <p>
+                                        Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud
+                                        dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara
+                                        lestari.
+                                    </p>
+                                </div>
                             </button>
                         </h2>
                         <div id="collapsePendahuluan" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -235,40 +240,26 @@
 
         <section id="analisis">
             <div class="container-fluid">
-                <h2 class="text-center">Analisa pengelolaan lingkungan hidup dengan kearifan lokal atau AI</h2>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAnalisis" aria-expanded="false" aria-controls="collapseAnalisis">
-                                <p>
-                                    Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud
-                                    dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara
-                                    lestari.
-                                </p>
+                                <div>
+                                    <h2 class="text-center">Analisa pengelolaan lingkungan hidup dengan kearifan lokal atau AI</h2>
+                                    AI atau Artificial Intelligence merupakan komputer/program dengan karakteristik seperti otak manusia, seperti kemampuan berpikir kritis, membuat keputusan, dan menaikkan produktivitas. Tujuan dasar
+                                    munculnya AI berawal dengan membantu rutinitas manusia, namun seiringnya waktu berjalan AI semakin tergantungnya manusia dengan mesin, dicemaskan juga bahwa AI akan mengambil alih hal-hal dasar yang tidak
+                                    perlu bantuan komputer. Korelasi AI dengan kearifan lokal juga tidak sepenuhnya negatif, menurut analisa kami, alangkah baiknya jika pengelolaan hidup dapat menggabungkan kedua kearifan lokal dan
+                                    teknologi AI untuk hasil yang lebih optimal, dengan prosedur yang benar, kearifan lokal bisa lebih maksimal dengan bantuan teknologi AI yang sekarang semakin canggih.
+                                </div>
                             </button>
                         </h2>
                         <div id="collapseAnalisis" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>
-                                    Kolonialisme dan imperialisme sendiri yaitu sebuah upaya yang dilakukan negara-negara penguasa demi menguasai suatu daerah/wilayah untuk mendapatkan kepentingan tertentu. Kolonialisme berfokus pada
-                                    penguasaan suatu wilayah untuk sumber daya alam tertentu dibawa ke negeri asalnya, sedangkan Imperialisme berfokus dalam penguasaan politik dan pemerintahan negara yang lain untuk memiliki pengaruh
-                                    terhadap negara tersebut. Portugis, Spanyol, Belanda, Prancis, Inggris, dan Jepang merupakan negara-negara yang telah meninggalkan jejaknya di negara Indonesia
-                                </p>
-                                <p>
-                                    Hubungan kearifan lokal dengan peran kolonialisme dan imperialisme bangsa Barat dalam sejarah Indonesia dapat kita lihat dari negara Indonesia yang kaya akan adat istiadat, tradisi, budaya yang menurun
-                                    setiap tahunnya dengan kedatangan bangsa Barat pada masa kolonialisme dan imperialisme. Kearifan lokal seringkali diremehkan, atau bahkan dihapuskan demi kepentingan penguasa kolonial, adanya juga
-                                    pemanfaatan sumber daya alam, penguasaan politik dan pemerintahan, pengenalan agama baru kepada negara Indonesia yang dapat merusak hubungan tradisional masyarakat dengan lingkungannya. Hal ini berdampak
-                                    pada pengetahuan lokal tentang ekologi dan keberlanjutan, yang dapat hilang
-                                </p>
-                                <p>
-                                    Dengan keterkaitan antara 2 hal ini kami sajikan laporan tertulis mengenai wilayah pilihan yang masih mengunjung kearifan lokal yaitu Suku Toraja. Alasan kami memilih suku Toraja karena lengkap dalam
-                                    aspek kearifan lokal dan juga sejarah kolonialisme dan imperalisme.
-                                </p>
-                                <p>
-                                    Suku Toraja adalah suku bangsa yang menetap di pegunungan bagian utara Sulawesi Selatan, Indonesia. Diantaranya masih tinggal di Kabupaten Tana Toraja, Kabupaten Toraja Utara, dan Kabupaten Mamasa.
-                                    Pemerintah kolonial Belanda menamai suku ini Toraja pada tahun 1909, kata Toraja berasal dari bahasa Bugis, To Riaja, yang berarti "orang yang berdiam di negeri atas", Kearifan lokal Suku Toraja yang
-                                    terkenal yaitu ritual pemakaman dimana mereka memiliki berbagai macam jenis pemakaman (pemakaman dalam goa, pemakaman batu ukir, pemakaman gantung), rumah adat tongkonan dengan bentuk atapnya yang
-                                    menjulang ke depan dan ke belakang menjadi ciri khas Suku Toraja.
+                                    Menurut analisa kami, alangkah baiknya jika pengelolaan hidup dapat menggabungkan kedua kearifan lokal dan teknologi AI untuk hasil yang lebih optimal, dengan prosedur yang benar, kearifan lokal bisa
+                                    lebih maksimal dengan bantuan teknologi AI yang sekarang semakin canggih. Menurut kami, kearifan lokal memiliki pengetahuan tradisional dan nilai-nilai budaya yang telah diwariskan dari generasi ke
+                                    generasi dapat dibantu AI dalam pengumpulan dan analisis data lingkungan secara efisien dan cepat, juga dapat memberikan prediksi serta solusi yang akurat. Mengintegrasikan kedua aspek ini dapat
+                                    memperkuat upaya kita dalam pengelolaan lingkungan hidup dengan tetap memperhatikan nilai-nilai budaya dan pengetahuan lokal yang berharga.
                                 </p>
                             </div>
                         </div>
@@ -279,41 +270,51 @@
 
         <section id="pembahasan">
             <div class="container-fluid">
-                <h1 class="text-center">Pembahasan</h1>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePembahasan" aria-expanded="false" aria-controls="collapsePembahasan">
-                                <p>
-                                    Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud
-                                    dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara
-                                    lestari.
-                                </p>
+                                <div>
+                                    <h1 class="text-center">Pembahasan</h1>
+                                    <p>
+                                        Dari pembahasan kami mengenai hubungan kearifan lokal dengan materi Sejarah kolonialisme dan imperalisme, ada banyak pengaruh kolonialisme dan imperalisme kepada kearifan lokal di Indonesia maupun
+                                        secara positif atau negatif. Pengaruh negatif kolonialisme dan imperalisme terhadap kearifan lokal terlihat jelas, seperti berubahnya politik dan sosial, hilangnya identitas kultural, eksploitasi
+                                        sumber daya, dimana penjajah sering mengambil keuntungan dari sumber daya alam dan tenaga kerja lokal tanpa memperhatikan dampak lingkungan dan sosial, alhasil merusak lingkungan dan cara hidup
+                                        tradisional yang mendasari kearifan lokal.
+                                    </p>
+                                </div>
                             </button>
                         </h2>
                         <div id="collapsePembahasan" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>
-                                    Kolonialisme dan imperialisme sendiri yaitu sebuah upaya yang dilakukan negara-negara penguasa demi menguasai suatu daerah/wilayah untuk mendapatkan kepentingan tertentu. Kolonialisme berfokus pada
-                                    penguasaan suatu wilayah untuk sumber daya alam tertentu dibawa ke negeri asalnya, sedangkan Imperialisme berfokus dalam penguasaan politik dan pemerintahan negara yang lain untuk memiliki pengaruh
-                                    terhadap negara tersebut. Portugis, Spanyol, Belanda, Prancis, Inggris, dan Jepang merupakan negara-negara yang telah meninggalkan jejaknya di negara Indonesia
+                                    Penting untuk diingat dampak kolonialisme dan imperialisme bervariasi tergantung pada konteks sejarah, tempat, dan kelompok yang terlibat. Selain itu, beberapa aspek mungkin tampak memiliki konsekuensi
+                                    negatif yang lebih besar terhadap kearifan lokal pada awalnya, tidak seluruhnya hasil pengaruh kolonialisme dan imperalisme juga bersifat negatif. Dampak positif yang dapat diperhatikan yaitu pada
+                                    pendidikan dan infrastruktur, dimana beberapa negara kolonial memberikan akses terhadap sistem pendidikan modern dan infrastruktur yang lebih baik sehingga membantu dalam penyebaran ilmu pengetahuan dan
+                                    teknologi baru, yang pada gilirannya dapat mempengaruhi perkembangan kearifan lokal. Ada juga pengaruh positif pada perdagangan global, keadaan perdagangan yang lebih terbuka dan global bisa memberikan
+                                    peluang baru untuk perdagangan produk lokal dengan pasar internasional, yang dapat memengaruhi cara masyarakat setempat berinteraksi dengan dunia luar.
                                 </p>
                                 <p>
-                                    Hubungan kearifan lokal dengan peran kolonialisme dan imperialisme bangsa Barat dalam sejarah Indonesia dapat kita lihat dari negara Indonesia yang kaya akan adat istiadat, tradisi, budaya yang menurun
-                                    setiap tahunnya dengan kedatangan bangsa Barat pada masa kolonialisme dan imperialisme. Kearifan lokal seringkali diremehkan, atau bahkan dihapuskan demi kepentingan penguasa kolonial, adanya juga
-                                    pemanfaatan sumber daya alam, penguasaan politik dan pemerintahan, pengenalan agama baru kepada negara Indonesia yang dapat merusak hubungan tradisional masyarakat dengan lingkungannya. Hal ini berdampak
-                                    pada pengetahuan lokal tentang ekologi dan keberlanjutan, yang dapat hilang
+                                    Kami ingatkan juga bahwa Indonesia masih memiliki beberapa wilayah yang menjujung keras budaya kearifan lokal, salah satunya adalah Suku Toraja, kembali lagi ke pembahasan kami mengenai wilayah Suku
+                                    Toraja dimana mereka memiliki kearifan lokal yang mendunia yang dapat dikenal sebagai Rambu Solo’. Rambu Solo’ adalah tradisi pemakaman ala Suku Toraja yang dilakukan untuk menghormati sekaligus
+                                    mengantarkan arwah menuju alam akhirat melalui serangkaian ritual dan doa. Ritual yang dilakukan berupa pertunjukan seni, adu kerbau, hingga mengantarkan jenazah. Tradisi ini bisa berlangsung selama
+                                    beberapa hari sesuai dengan status sosial keluarga penyelenggara Rambu Solo’.
                                 </p>
-                                <p>
-                                    Dengan keterkaitan antara 2 hal ini kami sajikan laporan tertulis mengenai wilayah pilihan yang masih mengunjung kearifan lokal yaitu Suku Toraja. Alasan kami memilih suku Toraja karena lengkap dalam
-                                    aspek kearifan lokal dan juga sejarah kolonialisme dan imperalisme.
-                                </p>
-                                <p>
-                                    Suku Toraja adalah suku bangsa yang menetap di pegunungan bagian utara Sulawesi Selatan, Indonesia. Diantaranya masih tinggal di Kabupaten Tana Toraja, Kabupaten Toraja Utara, dan Kabupaten Mamasa.
-                                    Pemerintah kolonial Belanda menamai suku ini Toraja pada tahun 1909, kata Toraja berasal dari bahasa Bugis, To Riaja, yang berarti "orang yang berdiam di negeri atas", Kearifan lokal Suku Toraja yang
-                                    terkenal yaitu ritual pemakaman dimana mereka memiliki berbagai macam jenis pemakaman (pemakaman dalam goa, pemakaman batu ukir, pemakaman gantung), rumah adat tongkonan dengan bentuk atapnya yang
-                                    menjulang ke depan dan ke belakang menjadi ciri khas Suku Toraja.
-                                </p>
+                                <ol>
+                                    <h4>Pembahasan mengenai Artificial Intelligence yang dapat dihubungkan seputar Suku Toraja mungkin akan terbatas dan tidak langsung, namun beberapa kaitan dari dua topik tersebut ialah:</h4>
+                                    <li>
+                                        Pengarsipan dan Pemeliharaan Budaya: AI dapat memungkinkan pembuatan rekaman digital tentang tradisi, adat istiadat, cerita rakyat, dan seni yang dapat diakses oleh generasi mendatang, membantu
+                                        menjaga kearifan lokal agar tidak terlupakan.
+                                    </li>
+                                    <li>
+                                        Pendidikan dan Penyebaran Informasi: AI dapat digunakan untuk mengembangkan aplikasi atau platform edukatif yang memberikan informasi tentang budaya, sejarah, dan tradisi suku Toraja kepada
+                                        orang-orang dari berbagai latar belakang. Ini dapat membantu mempromosikan pemahaman dan apresiasi terhadap kearifan lokal ini.
+                                    </li>
+                                    <li>
+                                        Pengenalan dan Penerjemahan Bahasa: AI dapat membantu dalam pengenalan bahasa dan penerjemahan. Suku Toraja memiliki bahasa dan dialeknya sendiri, maka AI dapat membantu dalam menjaga keberlanjutan
+                                        bahasa ini dengan mengembangkan alat penerjemahan atau aplikasi pembelajaran bahasa.
+                                    </li>
+                                </ol>
                             </div>
                         </div>
                     </div>
