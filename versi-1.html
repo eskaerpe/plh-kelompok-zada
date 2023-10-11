@@ -38,9 +38,7 @@
             #info-kelompok {
                 height: 50vh;
             }
-            #info-kelompok .container-fluid {
-                margin-top: 10vh;
-            }
+
             #info-kelompok .row .col-lg-6 ol,
             #info-kelompok .row .col-lg-6 ul {
                 font-size: 2vh;
@@ -52,16 +50,27 @@
             }
             #foto-toraja-1 .foto-1 {
                 height: 300px;
-                background: url("https://i.ibb.co/D86RSMS/DSC0553-FILEminimizer.jpg");
-                background-position: 0px 0px;
+                background: url("https://i.ibb.co/t2Q0Q7H/1-tor-2-crop.jpg");
+                background-position: 0px 50px;
                 background-repeat: no-repeat;
                 background-size: 100%;
                 background-attachment: fixed;
             }
 
-            #ringkasan p {
-                width: 70%;
+            #ringkasan-bagan {
                 text-align: justify;
+                background-color: #d0e7d2;
+            }
+
+            #pendahuluan .container-fluid {
+                width: 80%;
+            }
+            #pendahuluan {
+                text-align: justify;
+                
+            }
+            #pendahuluan .accordion{
+                box-shadow: 0 2px 5px rgb(0, 0, 0,0.5);
             }
         </style>
     </head>
@@ -82,7 +91,7 @@
                                 <a class="nav-link" href="#info-kelompok">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#ringkasan">Ringkasan</a>
+                                <a class="nav-link" href="#ringkasan-bagan">Ringkasan & Bagan</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -137,16 +146,70 @@
             <div class="foto-1"></div>
         </section>
 
-        <section id="ringkasan" class="mt-5">
+        <section id="ringkasan-bagan" class="mt-5">
             <div class="container-fluid">
-                <h1 class="text-center">Ringkasan</h1>
-                <h4 class="text-center">Materi Kearifan Lokal dalam Pengelolaan dan Perlindungan Lingkungan Hidup</h4>
-                <div class="wrapper d-flex justify-content-center">
-                    <p>
-                        &nbsp; Kearifan lokal terdiri dari kearifan (kebijaksanaan) dan lokal (setempat). Kearifan lokal dalam perlindungan dan pengelolaan lingkungan hidup adalah nilai-nilai, norma-norma mengenai pengelolaan lingkungan
-                        hidup yang berlaku dalam suatu masyarakat, diyakini kebenarannya dan diikuti oleh masyarakat dalam kehidupan sehari-hari. Bentuk kearifan lokal ada tangible/berwujud nyata (tekstual, arsitektual, benda karya seni)
-                        dan intangible/tidak berwujud (nasihat, cerita, kepercayaan)
-                    </p>
+                <div class="row justify-content-center align-items-center g-5 p-5">
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Ringkasan Materi Kearifan Lokal dalam Pengelolaan dan Perlindungan Lingkungan Hidup</h3>
+                        <div class="wrapper d-flex justify-content-center">
+                            <p>
+                                &nbsp; Kearifan lokal terdiri dari kearifan (kebijaksanaan) dan lokal (setempat). Kearifan lokal dalam perlindungan dan pengelolaan lingkungan hidup adalah nilai-nilai, norma-norma mengenai pengelolaan
+                                lingkungan hidup yang berlaku dalam suatu masyarakat, diyakini kebenarannya dan diikuti oleh masyarakat dalam kehidupan sehari-hari. Bentuk kearifan lokal ada tangible/berwujud nyata (tekstual, arsitektual,
+                                benda karya seni) dan intangible/tidak berwujud (nasihat, cerita, kepercayaan)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="text-center">Bagan/Peta Konsep Laporan Penulisan Bagian Pendahuluan</h3>
+                        <div class="wrapper d-flex justify-content-center">
+                            <ul>
+                                <li>Apa itu kearifan lokal dan perannya dalam perlindungan dan pengelolaan lingkungan hidup</li>
+                                <li>Apa itu kolonialisme dan imperalisme</li>
+                                <li>Hubungan kearifan lokal dalam pengelolaan dan perlindungan lingkungan hidup & kolonialisme dan imperalisme</li>
+                                <li>Wilayah pilihan yang mengunjung kearifan lokal dalam pengelolaan dan perlindungan lingkungan hidup</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pendahuluan">
+            <div class="container-fluid">
+                <h1 class="text-center">Pendahuluan</h1>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara lestari.</button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                <p>
+                                    Kolonialisme dan imperialisme sendiri yaitu sebuah upaya yang dilakukan negara-negara penguasa demi menguasai suatu daerah/wilayah untuk mendapatkan kepentingan tertentu. Kolonialisme berfokus pada
+                                    penguasaan suatu wilayah untuk sumber daya alam tertentu dibawa ke negeri asalnya, sedangkan Imperialisme berfokus dalam penguasaan politik dan pemerintahan negara yang lain untuk memiliki pengaruh
+                                    terhadap negara tersebut. Portugis, Spanyol, Belanda, Prancis, Inggris, dan Jepang merupakan negara-negara yang telah meninggalkan jejaknya di negara Indonesia
+                                </p>
+                                <p>
+                                    Hubungan kearifan lokal dengan peran kolonialisme dan imperialisme bangsa Barat dalam sejarah Indonesia dapat kita lihat dari negara Indonesia yang kaya akan adat istiadat, tradisi, budaya yang menurun
+                                    setiap tahunnya dengan kedatangan bangsa Barat pada masa kolonialisme dan imperialisme. Kearifan lokal seringkali diremehkan, atau bahkan dihapuskan demi kepentingan penguasa kolonial, adanya juga
+                                    pemanfaatan sumber daya alam, penguasaan politik dan pemerintahan, pengenalan agama baru kepada negara Indonesia yang dapat merusak hubungan tradisional masyarakat dengan lingkungannya. Hal ini berdampak
+                                    pada pengetahuan lokal tentang ekologi dan keberlanjutan, yang dapat hilang
+                                </p>
+                                <p>
+                                    Dengan keterkaitan antara 2 hal ini kami sajikan laporan tertulis mengenai wilayah pilihan yang masih mengunjung kearifan lokal yaitu Suku Toraja. Alasan kami memilih suku Toraja karena lengkap dalam
+                                    aspek kearifan lokal dan juga sejarah kolonialisme dan imperalisme.
+                                </p>
+                                <p>
+                                    Suku Toraja adalah suku bangsa yang menetap di pegunungan bagian utara Sulawesi Selatan, Indonesia. Diantaranya masih tinggal di Kabupaten Tana Toraja, Kabupaten Toraja Utara, dan Kabupaten Mamasa.
+                                    Pemerintah kolonial Belanda menamai suku ini Toraja pada tahun 1909, kata Toraja berasal dari bahasa Bugis, To Riaja, yang berarti "orang yang berdiam di negeri atas", Kearifan lokal Suku Toraja yang
+                                    terkenal yaitu ritual pemakaman dimana mereka memiliki berbagai macam jenis pemakaman (pemakaman dalam goa, pemakaman batu ukir, pemakaman gantung), rumah adat tongkonan dengan bentuk atapnya yang
+                                    menjulang ke depan dan ke belakang menjadi ciri khas Suku Toraja.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                    
                 </div>
             </div>
         </section>
