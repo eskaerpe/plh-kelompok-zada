@@ -7,7 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
         <style>
             html {
-                height: 5000px;
+                height: 3000px;
             }
             .navbar {
                 background-color: #618264;
@@ -62,15 +62,24 @@
                 background-color: #d0e7d2;
             }
 
-            #pendahuluan .container-fluid {
+            #pendahuluan .container-fluid,
+            #pembahasan .container-fluid,
+            #analisis .container-fluid {
                 width: 80%;
             }
-            #pendahuluan {
+            #pendahuluan,
+            #pendahuluan p,
+            #pembahasan,
+            #pembahasan p,
+            #analisis,
+            #analisis p {
+                padding: 10px;
                 text-align: justify;
-                
             }
-            #pendahuluan .accordion{
-                box-shadow: 0 2px 5px rgb(0, 0, 0,0.5);
+            #pendahuluan .accordion,
+            #pembahasan .accordion,
+            #analisis .accordion {
+                box-shadow: 0 2px 2px rgb(0, 0, 0, 0.5);
             }
         </style>
     </head>
@@ -94,7 +103,13 @@
                                 <a class="nav-link" href="#ringkasan-bagan">Ringkasan & Bagan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                <a class="nav-link" href="#pendahuluan">Pendahuluan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pendahuluan">Analisa</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pembahasan">Pembahasan</a>
                             </li>
                         </ul>
                     </div>
@@ -177,12 +192,18 @@
         <section id="pendahuluan">
             <div class="container-fluid">
                 <h1 class="text-center">Pendahuluan</h1>
-                <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara lestari.</button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePendahuluan" aria-expanded="false" aria-controls="collapsePendahuluan">
+                                <p>
+                                    Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud
+                                    dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara
+                                    lestari.
+                                </p>
+                            </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div id="collapsePendahuluan" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>
                                     Kolonialisme dan imperialisme sendiri yaitu sebuah upaya yang dilakukan negara-negara penguasa demi menguasai suatu daerah/wilayah untuk mendapatkan kepentingan tertentu. Kolonialisme berfokus pada
@@ -208,8 +229,94 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="analisis">
+            <div class="container-fluid">
+                <h2 class="text-center">Analisa pengelolaan lingkungan hidup dengan kearifan lokal atau AI</h2>
+                <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
-                    
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAnalisis" aria-expanded="false" aria-controls="collapseAnalisis">
+                                <p>
+                                    Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud
+                                    dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara
+                                    lestari.
+                                </p>
+                            </button>
+                        </h2>
+                        <div id="collapseAnalisis" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Kolonialisme dan imperialisme sendiri yaitu sebuah upaya yang dilakukan negara-negara penguasa demi menguasai suatu daerah/wilayah untuk mendapatkan kepentingan tertentu. Kolonialisme berfokus pada
+                                    penguasaan suatu wilayah untuk sumber daya alam tertentu dibawa ke negeri asalnya, sedangkan Imperialisme berfokus dalam penguasaan politik dan pemerintahan negara yang lain untuk memiliki pengaruh
+                                    terhadap negara tersebut. Portugis, Spanyol, Belanda, Prancis, Inggris, dan Jepang merupakan negara-negara yang telah meninggalkan jejaknya di negara Indonesia
+                                </p>
+                                <p>
+                                    Hubungan kearifan lokal dengan peran kolonialisme dan imperialisme bangsa Barat dalam sejarah Indonesia dapat kita lihat dari negara Indonesia yang kaya akan adat istiadat, tradisi, budaya yang menurun
+                                    setiap tahunnya dengan kedatangan bangsa Barat pada masa kolonialisme dan imperialisme. Kearifan lokal seringkali diremehkan, atau bahkan dihapuskan demi kepentingan penguasa kolonial, adanya juga
+                                    pemanfaatan sumber daya alam, penguasaan politik dan pemerintahan, pengenalan agama baru kepada negara Indonesia yang dapat merusak hubungan tradisional masyarakat dengan lingkungannya. Hal ini berdampak
+                                    pada pengetahuan lokal tentang ekologi dan keberlanjutan, yang dapat hilang
+                                </p>
+                                <p>
+                                    Dengan keterkaitan antara 2 hal ini kami sajikan laporan tertulis mengenai wilayah pilihan yang masih mengunjung kearifan lokal yaitu Suku Toraja. Alasan kami memilih suku Toraja karena lengkap dalam
+                                    aspek kearifan lokal dan juga sejarah kolonialisme dan imperalisme.
+                                </p>
+                                <p>
+                                    Suku Toraja adalah suku bangsa yang menetap di pegunungan bagian utara Sulawesi Selatan, Indonesia. Diantaranya masih tinggal di Kabupaten Tana Toraja, Kabupaten Toraja Utara, dan Kabupaten Mamasa.
+                                    Pemerintah kolonial Belanda menamai suku ini Toraja pada tahun 1909, kata Toraja berasal dari bahasa Bugis, To Riaja, yang berarti "orang yang berdiam di negeri atas", Kearifan lokal Suku Toraja yang
+                                    terkenal yaitu ritual pemakaman dimana mereka memiliki berbagai macam jenis pemakaman (pemakaman dalam goa, pemakaman batu ukir, pemakaman gantung), rumah adat tongkonan dengan bentuk atapnya yang
+                                    menjulang ke depan dan ke belakang menjadi ciri khas Suku Toraja.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pembahasan">
+            <div class="container-fluid">
+                <h1 class="text-center">Pembahasan</h1>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePembahasan" aria-expanded="false" aria-controls="collapsePembahasan">
+                                <p>
+                                    Pada dasarnya, kearifan lokal adalah suatu hal yang sudah ada di suatu wilayah sejak lama dan dilanjutkan dari generasi ke generasi. Dalam perlindungan dan pengelolaan lingkungan hidup, dapat dimaksud
+                                    dengan nilai-nilai atau norma-norma luhur mengenai pengelolaan lingkungan hidup, yang berlaku dan diyakini dalam kehidupan sehari-hari masyarakat untuk melindungi dan mengelola lingkungan hidup secara
+                                    lestari.
+                                </p>
+                            </button>
+                        </h2>
+                        <div id="collapsePembahasan" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Kolonialisme dan imperialisme sendiri yaitu sebuah upaya yang dilakukan negara-negara penguasa demi menguasai suatu daerah/wilayah untuk mendapatkan kepentingan tertentu. Kolonialisme berfokus pada
+                                    penguasaan suatu wilayah untuk sumber daya alam tertentu dibawa ke negeri asalnya, sedangkan Imperialisme berfokus dalam penguasaan politik dan pemerintahan negara yang lain untuk memiliki pengaruh
+                                    terhadap negara tersebut. Portugis, Spanyol, Belanda, Prancis, Inggris, dan Jepang merupakan negara-negara yang telah meninggalkan jejaknya di negara Indonesia
+                                </p>
+                                <p>
+                                    Hubungan kearifan lokal dengan peran kolonialisme dan imperialisme bangsa Barat dalam sejarah Indonesia dapat kita lihat dari negara Indonesia yang kaya akan adat istiadat, tradisi, budaya yang menurun
+                                    setiap tahunnya dengan kedatangan bangsa Barat pada masa kolonialisme dan imperialisme. Kearifan lokal seringkali diremehkan, atau bahkan dihapuskan demi kepentingan penguasa kolonial, adanya juga
+                                    pemanfaatan sumber daya alam, penguasaan politik dan pemerintahan, pengenalan agama baru kepada negara Indonesia yang dapat merusak hubungan tradisional masyarakat dengan lingkungannya. Hal ini berdampak
+                                    pada pengetahuan lokal tentang ekologi dan keberlanjutan, yang dapat hilang
+                                </p>
+                                <p>
+                                    Dengan keterkaitan antara 2 hal ini kami sajikan laporan tertulis mengenai wilayah pilihan yang masih mengunjung kearifan lokal yaitu Suku Toraja. Alasan kami memilih suku Toraja karena lengkap dalam
+                                    aspek kearifan lokal dan juga sejarah kolonialisme dan imperalisme.
+                                </p>
+                                <p>
+                                    Suku Toraja adalah suku bangsa yang menetap di pegunungan bagian utara Sulawesi Selatan, Indonesia. Diantaranya masih tinggal di Kabupaten Tana Toraja, Kabupaten Toraja Utara, dan Kabupaten Mamasa.
+                                    Pemerintah kolonial Belanda menamai suku ini Toraja pada tahun 1909, kata Toraja berasal dari bahasa Bugis, To Riaja, yang berarti "orang yang berdiam di negeri atas", Kearifan lokal Suku Toraja yang
+                                    terkenal yaitu ritual pemakaman dimana mereka memiliki berbagai macam jenis pemakaman (pemakaman dalam goa, pemakaman batu ukir, pemakaman gantung), rumah adat tongkonan dengan bentuk atapnya yang
+                                    menjulang ke depan dan ke belakang menjadi ciri khas Suku Toraja.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
